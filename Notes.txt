@@ -1,0 +1,23 @@
+https://www.gatsbyjs.org/docs/gatsby-on-linux/#using-windows-subsystem-linux-ubuntu
+
+# WSL 
+# set default distribution to Ubuntu
+wslconfig /setdefault ubuntu
+
+sudo apt update
+sudo apt -y upgrade
+
+# Build tools
+sudo apt install -y build-essential
+
+# Install node (didnt need to install)
+curl -L https://git.io/n-install | bash
+
+# node 
+sudo apt install node
+
+nvm install 10
+nvm use 10 
+
+yarn workspace minimal-blog develop
+
