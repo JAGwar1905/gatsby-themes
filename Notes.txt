@@ -21,3 +21,5 @@ nvm use 10
 
 yarn workspace minimal-blog develop
 
+MDX
+![alt](/banner.jpg)
