@@ -5,7 +5,7 @@ module.exports = (options) => {
 
   return {
     siteMetadata: {
-      siteTitle: `Amanda Mae Gray`,
+      siteTitle: `Amanda Mae Gray`, // Lupin
       siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
       siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
       siteUrl: `https://minimal-blog.lekoarts.de`,
@@ -23,7 +23,7 @@ module.exports = (options) => {
         resolve: `gatsby-plugin-feed`,
         options: newsletterFeed(feedTitle),
       },
-      `gatsby-plugin-react-helmet`,
+      `gatsby-plugin-react-helmet`,ssss
       `gatsby-plugin-typescript`,
       `gatsby-plugin-catch-links`,
       `gatsby-plugin-theme-ui`,
