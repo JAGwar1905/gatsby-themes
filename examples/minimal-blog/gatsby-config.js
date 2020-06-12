@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Amanda Mae Gray`,
+    siteTitleAlt: `Amanda Mae Gray`, // Minimal Blog - Gatsby Theme
   },
   plugins: [
     {
